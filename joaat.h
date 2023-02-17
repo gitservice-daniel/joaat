@@ -45,7 +45,7 @@ typedef unsigned __int64 uint64_t;
 * @Usage:
 * > JOAAT joaat;
 * >
-* > std::string myData = joaat.hash("HelloWorld");
+* > uint32_t myData = joaat.hash("HelloWorld");
 * > std::cout << myData << std::endl;
 * >
 *
@@ -57,7 +57,7 @@ typedef unsigned __int64 uint64_t;
 * >     joaat.add("DATA");
 * > }
 * >
-* > std::string data = joaat.hash();
+* > uint32_t data = joaat.hash();
 * > std::cout << data << std::endl;
 * >
 *
